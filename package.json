@@ -1,0 +1,41 @@
+{
+  "name": "rigel-ui",
+  "version": "1.0.0",
+  "description": "Modern CSS framework",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proyavin/rigel-ui.git"
+  },
+  "keywords": [
+    "rigel",
+    "rigel-ui",
+    "css",
+    "framework",
+    "modern",
+    "scss"
+  ],
+  "author": "Pavel Proyavin <pasha.proyavin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proyavin/rigel-ui/issues"
+  },
+  "homepage": "https://github.com/proyavin/rigel-ui#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-header": "^2.0.9",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {}
+}
